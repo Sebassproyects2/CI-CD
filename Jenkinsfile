@@ -4,8 +4,8 @@ pipeline{
     stages{
         stage("Prueba de taller"){
             steps{
-                bat "Practica.docx"
-                bat "hola.py"
+                sh "Practica.docx"
+                sh "hola.py"
             }
         }
     }
